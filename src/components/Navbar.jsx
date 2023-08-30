@@ -40,7 +40,7 @@ function Navbar() {
         <div className="ml-auto hidden items-center gap-8 md:flex">
           <Link to="/about">
             <li className="list-none font-medium transition-all hover:text-logoBlue">
-              About Us
+              About
             </li>
           </Link>
           <Link to="/services">
@@ -53,13 +53,13 @@ function Navbar() {
               Reviews
             </li>
           </Link>
-          <Link to="/careers">
+          <Link to="/questionaire">
             <li className="list-none font-medium transition-all hover:text-logoBlue">
-              Careers
+              Questionaire
             </li>
           </Link>
           <button className="rounded-sm bg-logoBlue  p-2 px-5 font-medium text-white transition-all">
-            Get a Quote
+            Contact Us
           </button>
         </div>
       </nav>
