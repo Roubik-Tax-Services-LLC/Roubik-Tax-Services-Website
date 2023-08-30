@@ -61,12 +61,12 @@ const MobileNavbar = ({ setShowMenu }) => {
               Reviews
             </li>
           </Link>
-          <Link to="/careers">
+          <Link to="/questionaire">
             <li
               onClick={() => setShowMenu(false)}
               className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
             >
-              Careers
+              Questionaire
             </li>
           </Link>
           {/* <Link> */}
