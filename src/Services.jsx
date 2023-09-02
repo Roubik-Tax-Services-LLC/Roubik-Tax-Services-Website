@@ -1,5 +1,12 @@
+import ContactInfo from "./components/ContactInfo";
+
 const Services = () => {
-  return <div>Services</div>;
+  return (
+    <>
+      <ContactInfo />
+      <h1>Services</h1>
+    </>
+  );
 };
 
 export default Services;
