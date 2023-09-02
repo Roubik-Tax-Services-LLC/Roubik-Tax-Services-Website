@@ -1,5 +1,12 @@
+import ContactInfo from "./components/ContactInfo";
+
 const About = () => {
-  return <div>About</div>;
+  return (
+    <>
+      <ContactInfo />
+      <h1>About</h1>
+    </>
+  );
 };
 
 export default About;
