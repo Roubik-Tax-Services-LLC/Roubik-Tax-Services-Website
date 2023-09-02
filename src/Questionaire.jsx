@@ -1,5 +1,12 @@
+import ContactInfo from "./components/ContactInfo";
+
 const Questionaire = () => {
-  return <div>Questionaire</div>;
+  return (
+    <>
+      <ContactInfo />
+      <h1>Questionaire</h1>
+    </>
+  );
 };
 
 export default Questionaire;
