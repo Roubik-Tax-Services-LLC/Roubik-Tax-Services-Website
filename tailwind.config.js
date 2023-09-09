@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         logoBlue: "#143763",
+        logoHover: "#89cff0",
         ButtonBlackHover: "#374151",
       },
     },
