@@ -58,7 +58,7 @@ function Navbar() {
               Questionaire
             </li>
           </Link>
-          <button className="rounded-sm bg-logoBlue  p-2 px-5 font-medium text-white transition-all">
+          <button className="rounded-sm bg-logoBlue hover:bg-logoHover p-2 px-5 font-medium text-white transition-all">
             Contact Us
           </button>
         </div>
