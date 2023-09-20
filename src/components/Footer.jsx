@@ -18,7 +18,7 @@ function Footer() {
         <div>
           <ul className="flex flex-col items-center gap-4 text-center md:flex-row md:items-start md:text-left">
             <Link to="/about">
-              <li className="text-md w-20 font-semibold transition-all hover:text-logoGreen md:w-20 lg:w-32 lg:text-lg">
+              <li className="text-md w-20 font-semibold transition-all hover:text-logoBlue md:w-20 lg:w-32 lg:text-lg">
                 About Us
               </li>
             </Link>
