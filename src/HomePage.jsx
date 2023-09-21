@@ -1,10 +1,19 @@
 import ContactInfo from "./components/ContactInfo";
+import heroImage from "./assets/HeroImage.png";
+import heroImageLandscape from "./assets/LandscapeHero.png";
+import HomePageHero from "./components/HomePageHero";
+import HomePageAbout from "./components/HomePageAbout";
+import aboutImage from "./assets/JoePic.jpg";
 
 const HomePage = () => {
   return (
     <>
       <ContactInfo />
-      <h1>HomePage</h1>
+      <HomePageHero
+        heroImage={heroImage}
+        heroImageLandscape={heroImageLandscape}
+      />
+      <HomePageAbout aboutImage={aboutImage} />
     </>
   );
 };
