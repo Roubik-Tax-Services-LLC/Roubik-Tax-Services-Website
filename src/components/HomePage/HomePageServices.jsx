@@ -1,5 +1,7 @@
 import checkIcon from "../../assets/checkIcon.svg";
 import Button from "../Button";
+import ClientPortal from "../ClientPortal";
+import ClientQuestionaire from "../ClientQuestionaire";
 
 const HomePageServices = () => {
   return (
@@ -62,7 +64,16 @@ const HomePageServices = () => {
           ></path>
         </svg>
       </div> */}
-        <Button to={"services"}>Learn More</Button>
+        <div className="md:flex lg:gap-10 md:gap-4 md:flex-row hidden">
+          <ClientQuestionaire />
+          <Button to={"services"}>Learn More</Button>
+          <ClientPortal />
+        </div>
+        <div className="flex flex-col gap-4 items-center md:hidden">
+          <ClientQuestionaire />
+          <ClientPortal />
+          <Button to={"services"}>Learn More</Button>
+        </div>
       </div>
     </div>
   );
