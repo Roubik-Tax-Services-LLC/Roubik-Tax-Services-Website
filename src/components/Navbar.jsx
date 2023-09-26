@@ -20,7 +20,7 @@ function Navbar({ openModal }) {
             <img
               src={Logo}
               alt="Roubik Tax Services logo"
-              className="h-16 lg:h-24"
+              className="h-8 lg:h-12"
             />
             {/*    */}
           </div>
@@ -39,6 +39,11 @@ function Navbar({ openModal }) {
         </button>
         {/* Nav links */}
         <div className="ml-auto hidden items-center gap-8 md:flex">
+          <Link to="/">
+            <li className="list-none font-medium transition-all hover:text-logoBlue">
+              Home
+            </li>
+          </Link>
           <Link to="/about">
             <li className="list-none font-medium transition-all hover:text-logoBlue">
               About
@@ -54,11 +59,11 @@ function Navbar({ openModal }) {
               Questionaire
             </li>
           </Link>
-          <Link to="/reviews">
+          {/* <Link to="/reviews">
             <li className="list-none font-medium transition-all hover:text-logoBlue">
               Follow Us
             </li>
-          </Link>
+          </Link> */}
           <button
             onClick={openModal}
             className="rounded-sm bg-logoBlue hover:bg-logoHover p-2 px-5 font-medium text-white transition-all"
