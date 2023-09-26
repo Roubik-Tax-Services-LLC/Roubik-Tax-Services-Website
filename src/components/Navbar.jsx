@@ -48,14 +48,14 @@ function Navbar() {
               Services
             </li>
           </Link>
-          <Link to="/reviews">
-            <li className="list-none font-medium transition-all hover:text-logoBlue">
-              Reviews
-            </li>
-          </Link>
           <Link to="/questionaire">
             <li className="list-none font-medium transition-all hover:text-logoBlue">
               Questionaire
+            </li>
+          </Link>
+          <Link to="/reviews">
+            <li className="list-none font-medium transition-all hover:text-logoBlue">
+              Follow Us
             </li>
           </Link>
           <button className="rounded-sm bg-logoBlue hover:bg-logoHover p-2 px-5 font-medium text-white transition-all">

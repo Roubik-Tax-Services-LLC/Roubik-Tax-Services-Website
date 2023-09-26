@@ -53,20 +53,20 @@ const MobileNavbar = ({ setShowMenu }) => {
             </li>
           </Link>
 
-          <Link to="/Reviews">
-            <li
-              onClick={() => setShowMenu(false)}
-              className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
-            >
-              Reviews
-            </li>
-          </Link>
           <Link to="/questionaire">
             <li
               onClick={() => setShowMenu(false)}
               className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
             >
               Questionaire
+            </li>
+          </Link>
+          <Link to="/Reviews">
+            <li
+              onClick={() => setShowMenu(false)}
+              className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
+            >
+              Follow Us
             </li>
           </Link>
           {/* <Link> */}
