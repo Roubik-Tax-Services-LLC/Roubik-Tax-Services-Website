@@ -7,18 +7,22 @@ const HomePageAbout = ({ aboutImage }) => {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-9 py-16 sm:px-16 md:flex-row lg:pb-32">
         <div className="relative flex h-64 justify-center md:w-1/2">
           <svg
-            className="absolute -left-44 -top-24 hidden scale-75 md:-left-8 md:-top-0 md:block md:scale-90 lg:left-20 lg:scale-100"
+            className="absolute -left-44 -top-24 hidden scale-75 md:-left-8 md:-top-0 md:block md:scale-75 lg:left-20 lg:scale-90"
             height={`${circleDimensions}`}
             width={`${circleDimensions}`}
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <circle
-              cx={`${circleDimensions / 2}`}
-              cy={`${circleDimensions / 2}`}
-              r={`${circleDimensions / 2}`}
-              strokeWidth="0"
+            <rect
+              x="0"
+              y="0"
+              width={`${circleDimensions}`}
+              height={`${circleDimensions}`}
+              rx="10" // Adjust the value to control the roundness of the edges
+              ry="10" // Adjust the value to control the roundness of the edges
               fill="#61C3EB"
             />
           </svg>
+
           {/* PLACEHOLDER IMAGE CHANGE LATER */}
           <img
             className="absolute bottom-10 w-60 max-w-xs md:-left-10 md:-top-0 md:w-72 md:rounded lg:left-12 lg:w-80"
