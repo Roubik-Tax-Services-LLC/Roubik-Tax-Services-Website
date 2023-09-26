@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "../App.css";
 import menuIcon from "../assets/menuIcon.svg";
 import { Link } from "react-router-dom";
@@ -5,7 +6,7 @@ import { useState } from "react";
 import Logo from "../assets/Logo.png";
 import MobileNavbar from "./MobileNavbar";
 
-function Navbar() {
+function Navbar({ openModal }) {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
@@ -58,13 +59,18 @@ function Navbar() {
               Follow Us
             </li>
           </Link>
-          <button className="rounded-sm bg-logoBlue hover:bg-logoHover p-2 px-5 font-medium text-white transition-all">
+          <button
+            onClick={openModal}
+            className="rounded-sm bg-logoBlue hover:bg-logoHover p-2 px-5 font-medium text-white transition-all"
+          >
             Contact Us
           </button>
         </div>
       </nav>
       {/* Mobile Nav */}
-      {showMenu && <MobileNavbar setShowMenu={setShowMenu} />}
+      {showMenu && (
+        <MobileNavbar openModal={openModal} setShowMenu={setShowMenu} />
+      )}
     </header>
   );
 }
