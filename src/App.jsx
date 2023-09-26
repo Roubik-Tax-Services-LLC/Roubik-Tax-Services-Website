@@ -1,11 +1,13 @@
 import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
+import { useState } from "react";
 import Navbar from "./components/Navbar";
 import HomePage from "./HomePage";
 import About from "./About";
 import Services from "./Services";
 import Questionaire from "./Questionaire";
 import Footer from "./components/Footer";
+import ContactModal from "./components/ContactModal";
 
 function NotFound() {
   return (
@@ -25,17 +27,28 @@ function NotFound() {
 }
 
 function App() {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <>
-      <Navbar />
+      <Navbar openModal={openModal} />
       <Routes>
-        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/" element={<HomePage openModal={openModal} />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/services" element={<Services />} />
         <Route exact path="/questionaire" element={<Questionaire />} />
         <Route exact path="*" element={<NotFound />} />
       </Routes>
       <Footer />
+      {showModal && <ContactModal closeModal={closeModal} />}
     </>
   );
 }
