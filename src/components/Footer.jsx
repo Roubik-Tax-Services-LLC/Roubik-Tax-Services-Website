@@ -27,9 +27,9 @@ function Footer() {
                 Services
               </li>
             </Link>
-            <Link to="/reviews">
+            <Link to="/questionaire">
               <li className="text-md w-20 font-semibold transition-all hover:text-logoBlue md:w-20 lg:w-32 lg:text-lg">
-                Reviews
+                Tax Form
               </li>
             </Link>
             <div className="hidden md:block">
