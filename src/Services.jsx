@@ -1,4 +1,6 @@
 import ContactInfo from "./components/ContactInfo";
+import ClientPortal from "./components/ClientPortal";
+import ClientQuestionaire from "./components/ClientQuestionaire";
 
 const Services = () => {
   return (
@@ -6,7 +8,7 @@ const Services = () => {
       <ContactInfo />
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <div className="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-logoHover uppercase rounded-full">
               Our Services
@@ -33,31 +35,27 @@ const Services = () => {
                 Tax Planning
               </h2>
               <p className="text-base text-gray-700 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae. explicabo.
+              So perhaps you're considering a new tax pro this year.  Most tax professionals do a fine job putting the "right" numbers in the "right" boxes on the "right" forms, but then they call it a day. It doesn't matter how good your tax preparer is with a stack of receipts on April 15. The real secret to reducing your tax bill is planning.
               </p>
             </div>
             <div className="grid gap-5 row-gap-8 sm:grid-cols-2">
               <div className="bg-white border-l-4 shadow-sm border-deep-purple-accent-400">
                 <div className="h-full p-5 border border-l-0 rounded-r">
                   <h6 className="mb-2 font-semibold leading-5">
-                    I'll be sure to note that in my log
+                  At Roubik Tax Services, we're different.
                   </h6>
                   <p className="text-sm text-gray-900">
-                    Lookout flogging bilge rat main sheet bilge water nipper fluke
-                    to go on account heave down.
+                  We don't just record history. We help you write it with a complete lineup of concepts and strategies to give you the savings you really want.
                   </p>
                 </div>
               </div>
               <div className="bg-white border-l-4 shadow-sm border-deep-purple-accent-400">
                 <div className="h-full p-5 border border-l-0 rounded-r">
                   <h6 className="mb-2 font-semibold leading-5">
-                    A business big enough that it could be listed
+                    This year, don't settle for just "filing" your return.
                   </h6>
                   <p className="text-sm text-gray-900">
-                    Those options are already baked in with this model shoot me an
-                    email clear.
+                  We'll find the mistakes and missed opportunities that may be costing you thousands and show you how proactive tax planning can save those dollars.
                   </p>
                 </div>
               </div>
@@ -66,7 +64,7 @@ const Services = () => {
           <div>
             <img
               className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-              src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src="/src/assets/taxplanning2.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
               alt=""
             />
           </div>
@@ -74,25 +72,10 @@ const Services = () => {
       </div>
 
 
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-          {/* <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-logoHover uppercase rounded-full">
-              Our Services
-            </p>
-          </div> */}
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-            <span className="relative inline-block">
-              
-              <span className="relative">Tax</span>
-            </span>{' '}
-            Preparation
-          </h2>
-          <p className="text-base text-gray-700 md:text-lg">
-          We can prepare and file your State and Federal Income Tax Returns regardless of your location within the continental USA.
-          </p>
-        </div>
+        
 
       <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
+      
       <div className="relative">
           <img
             className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
@@ -101,6 +84,15 @@ const Services = () => {
           />
         </div>
         <div className="lg:py-6 lg:pr-16">
+        <div className="max-w-xl mb-10 md:mx-auto lg:max-w-2xl md:mb-12">
+
+          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            Tax Planning
+          </h2>
+          <p className="text-base text-gray-700 md:text-lg">
+          We can prepare and file your State and Federal Income Tax Returns regardless of your location within the continental USA.
+          </p>
+        </div>
           <div className="flex">
             <div className="flex flex-col items-center mr-4">
               <div>
@@ -315,7 +307,13 @@ const Services = () => {
         </div>
         
       </div>
+      <div className="mt-12 justify-center md:flex lg:gap-10 md:gap-4 md:flex-row">
+          <ClientQuestionaire />
+          <ClientPortal />
+        </div>
     </div>
+
+
     </>
   );
 };
