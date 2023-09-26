@@ -3,7 +3,7 @@ import Button from "../Button";
 
 const HomePageServices = () => {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-100">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-9 py-8 sm:px-16 gap-5">
         <h3 className="font-semibold text-center text-3xl">Our Services</h3>
         <div className="flex gap-8 md:gap-16 flex-col md:flex-row">
@@ -19,15 +19,15 @@ const HomePageServices = () => {
             </p>
             <p className="flex gap-4 pb-4">
               <img className="w-8" src={checkIcon} alt="check mark icon" />
-              Tax planning allows individuals to leverage deductions, credits,
-              and exemptions provided by tax laws, ultimately reducing the
-              amount of taxes owed.
+              Effective tax planning can improve cash flow by minimizing tax
+              expenses. This additional cash can be directed towards fostering
+              financial growth.
             </p>
             <p className="flex gap-4">
               <img className="w-8" src={checkIcon} alt="check mark icon" />
-              Tax planning allows individuals to leverage deductions, credits,
-              and exemptions provided by tax laws, ultimately reducing the
-              amount of taxes owed.
+              Tax planning plays a crucial role in achieving long-term financial
+              objectives and becomes a valuable tool for retirement planning and
+              wealth preservation.
             </p>
           </div>
           <div className="md:w-1/2 w-full">

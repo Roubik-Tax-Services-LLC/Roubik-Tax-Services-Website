@@ -1,4 +1,4 @@
-const HomePageHero = ({ heroImage, heroImageLandscape }) => {
+const HomePageHero = ({ heroImage, heroImageLandscape, openModal }) => {
   return (
     <>
       <main>
@@ -23,7 +23,10 @@ const HomePageHero = ({ heroImage, heroImageLandscape }) => {
             </h1>
 
             <div className="flex justify-center sm:block">
-              <button className="mx-auto inline-block border-2 border-white px-8 py-2 text-center text-lg font-bold transition-all hover:bg-[#4e5553]">
+              <button
+                onClick={openModal}
+                className="mx-auto inline-block border-2 border-white px-8 py-2 text-center text-lg font-bold transition-all hover:bg-[#4e5553]"
+              >
                 Contact Us
               </button>
             </div>

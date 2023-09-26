@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import phone from "../assets/phone.svg";
 import { useEffect, useRef } from "react";
 
-const MobileNavbar = ({ setShowMenu }) => {
+const MobileNavbar = ({ setShowMenu, openModal }) => {
   const mobileNavbarRef = useRef(null);
 
   useEffect(() => {
@@ -73,9 +73,16 @@ const MobileNavbar = ({ setShowMenu }) => {
           <div
             onClick={() => setShowMenu(false)}
             className="m-2 flex justify-center"
-          ></div>
+          >
+            <button
+              onClick={openModal}
+              className="mb-3 w-full rounded border-2 border-white bg-logoBlue px-8 py-2 text-center text-lg font-bold text-white transition-all hover:bg-logoHover"
+            >
+              Contact Us
+            </button>
+          </div>
           {/* </Link> */}
-          <li className="flex justify-center gap-2 border-b border-gray-300 py-4 text-slate-500">
+          <li className="flex justify-center gap-2 border-b border-gray-300 pb-4 text-slate-500">
             <img src={phone} alt="Phone icon" className="w-6" />
             <a
               href="tel:4536780978"

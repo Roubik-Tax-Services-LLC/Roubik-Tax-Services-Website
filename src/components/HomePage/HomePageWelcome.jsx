@@ -17,7 +17,7 @@ const HomePageWelcome = () => {
           straight and honest answers to tough tax and financial questions at
           affordable prices…so
         </p>
-        <h4 className="font-semibold text-logoBlue text-2xl">
+        <h4 className="font-semibold text-logoBlue text-2xl text-center">
           YOU Can Better Live Your American Dream!
         </h4>
       </div>
