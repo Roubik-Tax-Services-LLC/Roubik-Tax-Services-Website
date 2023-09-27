@@ -1,6 +1,6 @@
 import ContactInfo from "./components/ContactInfo";
 import ClientPortal from "./components/ClientPortal";
-import ClientQuestionaire from "./components/ClientQuestionaire";
+import ClientQuestionnaire from "./components/ClientQuestionnaire";
 
 const Services = () => {
   return (
@@ -309,7 +309,7 @@ const Services = () => {
         
       </div>
       <div className="mt-12 justify-center md:flex lg:gap-10 md:gap-4 md:flex-row">
-          <ClientQuestionaire />
+          <ClientQuestionnaire />
           <ClientPortal />
         </div>
     </div>
