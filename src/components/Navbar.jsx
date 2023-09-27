@@ -54,9 +54,9 @@ function Navbar({ openModal }) {
               Services
             </li>
           </Link>
-          <Link to="/questionaire">
+          <Link to="/questionnaire">
             <li className="list-none font-medium transition-all hover:text-logoBlue">
-              Questionaire
+              Questionnaire
             </li>
           </Link>
           {/* <Link to="/reviews">

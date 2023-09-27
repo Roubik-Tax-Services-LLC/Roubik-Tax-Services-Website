@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import HomePage from "./HomePage";
 import About from "./About";
 import Services from "./Services";
-import Questionaire from "./Questionaire";
+import Questionnaire from "./Questionnaire";
 import Footer from "./components/Footer";
 import ContactModal from "./components/ContactModal";
 
@@ -44,7 +44,7 @@ function App() {
         <Route exact path="/" element={<HomePage openModal={openModal} />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/services" element={<Services />} />
-        <Route exact path="/questionaire" element={<Questionaire />} />
+        <Route exact path="/questionnaire" element={<Questionnaire />} />
         <Route exact path="*" element={<NotFound />} />
       </Routes>
       <Footer />

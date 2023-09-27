@@ -1,7 +1,7 @@
 const HomePageWelcome = () => {
   return (
     <>
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-9 py-16 sm:px-16 gap-5">
+      <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-9 py-16 sm:px-16 gap-5 lg:py-20 ">
         <h1 className="font-semibold text-3xl text-center">
           WELCOME TO ROUBIK TAX SERVICES LLC
         </h1>

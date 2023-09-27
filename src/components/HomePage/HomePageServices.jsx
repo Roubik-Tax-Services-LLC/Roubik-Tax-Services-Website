@@ -1,12 +1,12 @@
 import checkIcon from "../../assets/checkIcon.svg";
 import Button from "../Button";
 import ClientPortal from "../ClientPortal";
-import ClientQuestionaire from "../ClientQuestionaire";
+import ClientQuestionnaire from "../ClientQuestionnaire";
 
 const HomePageServices = () => {
   return (
     <div className="bg-gray-100">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-9 py-8 sm:px-16 gap-5">
+      <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-9 py-8 sm:px-16 gap-5 lg:py-20">
         <h3 className="font-semibold text-center text-3xl">Our Services</h3>
         <div className="flex gap-8 md:gap-16 flex-col md:flex-row">
           <div className="md:w-1/2 w-full">
@@ -64,13 +64,13 @@ const HomePageServices = () => {
           ></path>
         </svg>
       </div> */}
-        <div className="md:flex lg:gap-10 md:gap-4 md:flex-row hidden">
-          <ClientQuestionaire />
+        <div className="md:flex lg:gap-10 md:gap-4 md:flex-row hidden lg:py-5">
+          <ClientQuestionnaire />
           <Button to={"services"}>Learn More</Button>
           <ClientPortal />
         </div>
-        <div className="flex flex-col gap-4 items-center md:hidden">
-          <ClientQuestionaire />
+        <div className="flex flex-col gap-4 items-center md:hidden lg:py-5">
+          <ClientQuestionnaire />
           <ClientPortal />
           <Button to={"services"}>Learn More</Button>
         </div>

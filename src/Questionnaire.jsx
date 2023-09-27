@@ -1,12 +1,12 @@
 import ContactInfo from "./components/ContactInfo";
 
-const Questionaire = () => {
+const Questionnaire = () => {
   return (
     <>
       <ContactInfo />
-      <h1>Questionaire</h1>
+      <h1>Questionnaire</h1>
     </>
   );
 };
 
-export default Questionaire;
+export default Questionnaire;

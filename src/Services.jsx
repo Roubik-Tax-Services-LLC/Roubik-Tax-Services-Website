@@ -6,7 +6,7 @@ const Services = () => {
       <ContactInfo />
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <div className="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl ">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-logoHover uppercase rounded-full">
               Our Services
@@ -134,7 +134,7 @@ const Services = () => {
             <div className="pt-1 pb-8">
               <p className="mb-2 text-lg font-bold">Step 1</p>
               <p className="text-gray-700">
-                Complete our online client questionaire.
+                Complete our online client questionnaire.
               </p>
             </div>
           </div>
