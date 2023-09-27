@@ -19,7 +19,10 @@ const About = () => {
           our talented team of professionals
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-        Our mission is to significantly improve our clients, community, and ourselves by constantly striving to achieve beyond caring relationships, excellence in knowledge and education, and service beyond expectations.
+        Our <span className="uppercase text-logoHover font-semibold ">mission</span> is to significantly improve our clients, community, and ourselves by constantly striving to achieve beyond caring relationships, excellence in knowledge and education, and service beyond expectations.
+        </p>
+        <p className="text-base text-gray-700 md:text-lg py-4">
+        Our <span className="uppercase text-logoHover font-semibold ">vision</span> is to significantly improve our clients, community, and ourselves through becoming the most trusted for our vision, education, and service.
         </p>
       </div>
       <div className="grid gap-10 sm:grid-cols-3 lg:grid-cols-3">

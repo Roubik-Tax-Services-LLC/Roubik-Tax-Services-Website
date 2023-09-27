@@ -4,7 +4,7 @@ import Button from "../Button";
 const HomePageAbout = ({ aboutImage }) => {
   return (
     <section>
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-9 py-16 sm:px-16 md:flex-row lg:pb-32">
+      <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-9 py-16 sm:px-16 md:flex-row lg:pb-32 lg:py-20">
         <div className="relative flex h-64 justify-center md:w-1/2">
           <svg
             className="absolute -left-44 -top-24 hidden scale-75 md:-left-8 md:-top-0 md:block md:scale-75 lg:left-20 lg:scale-90"

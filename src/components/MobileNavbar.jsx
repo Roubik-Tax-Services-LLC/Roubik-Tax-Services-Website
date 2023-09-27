@@ -53,22 +53,22 @@ const MobileNavbar = ({ setShowMenu, openModal }) => {
             </li>
           </Link>
 
-          <Link to="/questionaire">
+          <Link to="/questionnaire">
             <li
               onClick={() => setShowMenu(false)}
               className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
             >
-              Questionaire
+              Questionnaire
             </li>
           </Link>
-          <Link to="/Reviews">
+          {/* <Link to="/Reviews">
             <li
               onClick={() => setShowMenu(false)}
               className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
             >
               Follow Us
             </li>
-          </Link>
+          </Link> */}
           {/* <Link> */}
           <div
             onClick={() => setShowMenu(false)}
