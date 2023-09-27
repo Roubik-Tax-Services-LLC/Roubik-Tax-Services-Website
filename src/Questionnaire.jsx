@@ -1,15 +1,16 @@
-
 /* eslint-disable react/prop-types */
 import ContactInfo from "./components/ContactInfo";
 import { scrollToTop } from "./utils/scrollToTop";
-
-
+import { useEffect } from "react";
 
 const Questionnaire = () => {
+  useEffect(() => {
+    scrollToTop();
+  }, []);
+
   return (
     <>
       <ContactInfo />
-
       <div className="max-w-4xl mx-auto px-8">
         <h1 className=" font-semibold text-3xl text-center py-10">
           Annual Client Tax Questionnaire for Individuals
@@ -250,7 +251,6 @@ const Questionnaire = () => {
           </div>
         </form>
       </div>
-
     </>
   );
 };
