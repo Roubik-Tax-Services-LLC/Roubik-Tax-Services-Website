@@ -2,7 +2,7 @@
 import ContactInfo from "./components/ContactInfo";
 import { scrollToTop } from "./utils/scrollToTop";
 
-const Questionaire = () => {
+const Questionnaire = () => {
   return (
     <>
       <ContactInfo />
@@ -250,4 +250,4 @@ const Questionaire = () => {
   );
 };
 
-export default Questionaire;
+export default Questionnaire;
