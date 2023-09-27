@@ -10,6 +10,7 @@ import HomePageWelcome from "./components/HomePage/HomePageWelcome";
 import HomePagePlanning from "./components/HomePage/HomePagePlanning";
 import HomePageServices from "./components/HomePage/HomePageServices";
 import { HashLoader } from "react-spinners";
+import { scrollToTop } from "./utils/scrollToTop";
 
 const HomePage = ({ openModal }) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -36,7 +37,7 @@ const HomePage = ({ openModal }) => {
 
       Promise.all(imagePromises).then(() => {
         setIsLoading(false);
-        // scrollToTop();
+        scrollToTop();
       });
     };
 
@@ -51,7 +52,7 @@ const HomePage = ({ openModal }) => {
     <>
       {isLoading ? (
         <div className="mt-40 flex h-screen items-start justify-center">
-          <HashLoader size={"100"} color={"#61C3EB"} />
+          <HashLoader size={"100px"} color={"#61C3EB"} />
         </div>
       ) : (
         <>
