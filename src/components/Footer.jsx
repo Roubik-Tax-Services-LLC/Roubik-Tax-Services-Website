@@ -5,79 +5,108 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="bg-gray-200">
-      <footer className="mx-auto flex max-w-7xl flex-col items-center justify-between px-16 py-8 md:flex-row md:px-8">
-        <Link to="/">
-          <div className="items-center gap-2 pb-4 md:flex">
-            <img
-              src={Logo}
-              alt="Roubik Tax Services icon"
-              className="w-36 sm:w-40 md:w-44"
-            />
-          </div>
-        </Link>
-        <div>
-          <ul className="flex flex-col items-center gap-4 text-center md:flex-row md:items-start md:text-left">
-            <Link to="/about">
-              <li className="text-md w-20 font-semibold transition-all hover:text-logoBlue md:w-20 lg:w-32 lg:text-lg">
-                About Us
-              </li>
-            </Link>
-            <Link to="/services">
-              <li className="text-md w-20 font-semibold transition-all hover:text-logoBlue md:w-20 lg:w-32 lg:text-lg">
-                Services
-              </li>
-            </Link>
-            <Link to="/questionnaire">
-              <li className="text-md w-20 font-semibold transition-all hover:text-logoBlue md:w-20 lg:w-32 lg:text-lg">
-                Tax Form
-              </li>
-            </Link>
-            <div className="hidden md:block">
-              <li className="text-md hidden text-center font-semibold transition-all hover:cursor-pointer hover:text-logoBlue md:block md:w-20 md:text-left lg:w-32 lg:text-lg">
-                Follow Us
-              </li>
-              <ul className="hidden text-center text-xs md:block md:text-sm">
-                <a href="" target="_blank" rel="noreferrer">
-                  <li className="ml-7">
-                    <img src={linkedin} alt="Linkedin icon" className="w-6" />
-                  </li>
-                </a>
-              </ul>
+
+    {/* <div className="px-4 py4 mx-auto max-w-full "> */}
+
+      <div className="mx-auto flex max-w-full flex-col items-center justify-around px-16 py-8 md:flex-row md:px-8">
+        <div className="sm:col-span-2 basis-1/2">
+          <Link to="/">
+            <div className="justify-center gap-2 pb-4 md:flex">
+              <img
+                src={Logo}
+                alt="Roubik Tax Services icon"
+                className="h-16"
+              />
             </div>
-            <div>
-              <li
-                // onClick={openModal}
-                className="text-md text-center font-semibold transition-all hover:cursor-pointer hover:text-logoBlue md:w-24 md:text-left lg:w-32 lg:text-lg"
-              >
-                Contact Us
-              </li>
-              <div>
-                <ul className="flex flex-col items-center text-xs md:block md:text-sm">
-                  <a
-                    href="tel:+14536780978"
-                    className="transition-all hover:text-logoBlue"
-                  >
-                    <li>(453) 678-0978</li>
-                  </a>
-                  <a
-                    href="mailto:joe@roubiktaxservices.com"
-                    className="transition-all hover:text-logoBlue"
-                  >
-                    <li>joe@roubiktaxservices.com</li>
-                  </a>
-                </ul>
-              </div>
-            </div>
-            <ul className="flex md:hidden">
-              <li className="px-1">
-                <a href="" target="_blank" rel="noreferrer">
-                  <img src={linkedin} alt="Linkedin icon" className="w-6" />
-                </a>
-              </li>
-            </ul>
-          </ul>
+          </Link>
         </div>
-      </footer>
+        <div className="space-y-2 text-sm basis-1/4">
+          <p className="text-base font-bold tracking-wide text-gray-900">
+            Contacts
+          </p>
+          <div className="flex">
+            <p className="text-xs mr-1 text-gray-800">Phone:</p>
+            <a
+              href="tel:(453) 678-0978"
+              aria-label="Our phone"
+              title="Our phone"
+              className="text-xs transition-colors duration-300 text-logoHover"
+            >
+              (453) 678-0978
+            </a>
+          </div>
+          <div className="flex">
+            <p className="text-xs mr-1 text-gray-800">Email:</p>
+            <a
+              href="mailto:joe@roubiktaxservices.com"
+              aria-label="Our email"
+              title="Our email"
+              className="text-xs transition-colors duration-300 text-logoHover"
+            >
+              joe@roubiktaxservices.com
+            </a>
+          </div>
+          <div className="flex">
+            <p className="text-xs mr-1 text-gray-800">Address:</p>
+            <a
+              href="https://www.google.com/maps"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Our address"
+              title="Our address"
+              className="text-xs transition-colors duration-300 text-logoHover"
+            >
+              7111 W. Edgerton Ave., Suite 302 Greenfield, WI 53220
+            </a>
+          </div>
+        </div>
+        <div className="basis-1/4">
+          <span className="text-base font-bold tracking-wide text-gray-900">
+            Follow Us
+          </span>
+          <div className="flex items-center mt-1 space-x-3">
+            <a href="" target="_blank" rel="noreferrer">
+              <div className="ml-7 py-1">
+                <img src={linkedin} alt="Linkedin icon" className="w-6" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
+        <p className="text-sm text-gray-600">
+          © Copyright 2020 Lorem Inc. All rights reserved.
+        </p>
+        <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+          <li>
+            <a
+              href="/"
+              className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+            >
+              F.A.Q
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+            >
+              Privacy Policy
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+            >
+              Terms &amp; Conditions
+            </a>
+          </li>
+        </ul>
+      </div> */}
+    {/* </div> */}
+
+
     </div>
   );
 }
