@@ -5,18 +5,13 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="bg-gray-200">
-
-    {/* <div className="px-4 py4 mx-auto max-w-full "> */}
+      {/* <div className="px-4 py4 mx-auto max-w-full "> */}
 
       <div className="mx-auto flex max-w-full flex-col items-center justify-around px-16 py-8 md:flex-row md:px-8">
         <div className="sm:col-span-2 basis-1/2">
           <Link to="/">
             <div className="justify-center gap-2 pb-4 md:flex">
-              <img
-                src={Logo}
-                alt="Roubik Tax Services icon"
-                className="h-16"
-              />
+              <img src={Logo} alt="Roubik Tax Services icon" className="h-16" />
             </div>
           </Link>
         </div>
@@ -32,7 +27,7 @@ function Footer() {
               title="Our phone"
               className="text-xs transition-colors duration-300 text-logoHover"
             >
-              (453) 678-0978
+              414-316-6006
             </a>
           </div>
           <div className="flex">
@@ -43,7 +38,7 @@ function Footer() {
               title="Our email"
               className="text-xs transition-colors duration-300 text-logoHover"
             >
-              joe@roubiktaxservices.com
+              info@roubiktax.com
             </a>
           </div>
           <div className="flex">
@@ -104,9 +99,7 @@ function Footer() {
           </li>
         </ul>
       </div> */}
-    {/* </div> */}
-
-
+      {/* </div> */}
     </div>
   );
 }
