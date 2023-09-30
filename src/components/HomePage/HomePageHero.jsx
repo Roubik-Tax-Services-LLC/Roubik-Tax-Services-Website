@@ -24,10 +24,15 @@ const HomePageHero = ({ heroImage, heroImageLandscape, openModal }) => {
 
             <div className="flex justify-center sm:block">
               <button
-                onClick={openModal}
+                onClick={() => {
+                  window.open(
+                    "https://go.oncehub.com/RoubikTaxServicesLLC",
+                    "_blank"
+                  );
+                }}
                 className="mx-auto inline-block border-2 border-white px-8 py-2 text-center text-lg font-bold transition-all hover:bg-[#4e5553]"
               >
-                Contact Us
+                Schedule an Appointment
               </button>
             </div>
           </div>
