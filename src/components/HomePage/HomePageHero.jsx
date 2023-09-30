@@ -9,7 +9,7 @@ const HomePageHero = ({ heroImage, heroImageLandscape, openModal }) => {
             alt="Woman wiping down a table"
           />
           <img
-            className="hidden w-full h-auto brightness-50 sm:block sm:brightness-[60%]"
+            className="hidden w-full h-auto xl:h-screen xl:w-auto brightness-50 sm:block sm:brightness-[60%]"
             src={heroImageLandscape}
             alt="Woman wiping down a table"
           />
