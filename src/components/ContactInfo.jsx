@@ -1,23 +1,37 @@
 import phone from "../assets/phone.svg";
 import email from "../assets/email.svg";
 import pin from "../assets/pin.png";
+import clock from "../assets/clock.png";
 
 const ContactInfo = () => {
   return (
-    <div className="flex w-full flex-col items-center justify-center gap-3 bg-gray-200 py-6 text-sm sm:flex-row sm:gap-7 md:gap-16 md:text-base lg:gap-32">
-      <div className="flex items-center gap-2 font-bold">
+    <div className="flex w-full flex-col items-center justify-center gap-3 bg-gray-200 py-6 text-sm lg:flex-row lg:gap-12 xl:text-base xl:gap-28 px-4">
+      <div className="flex items-center gap-2 font-semibold">
         <img src={phone} alt="Phone icon" className="w-6" />
         <a href="tel:+14536780978">414-316-6006</a>
       </div>
-      <div className="flex items-center gap-2 font-bold">
+      <div className="flex items-center gap-2 font-semibold">
         <img src={email} alt="Email icon" className="w-7" />
-        <a href="mailto:joe@roubiktaxservices.com">
-          <p>info@roubiktax.com</p>
+        <a href="mailto:joe@roubiktaxservices.com">info@roubiktax.com</a>
+      </div>
+      <div className="flex items-center gap-2 font-semibold">
+        <img src={pin} alt="Map pin icon" className="w-6" />
+        <a
+          href="https://www.google.com/maps"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Our address"
+          title="Our address"
+          className="transition-colors duration-300"
+        >
+          7111 W. Edgerton Ave., Suite 302 <br /> Greenfield, WI 53220
         </a>
       </div>
-      <div className="flex items-center gap-2 font-bold">
-        <img src={pin} alt="Map pin icon" className="w-6" />
-        <p>Greenfield, WI</p>
+      <div className="flex items-center gap-2 font-semibold">
+        <img src={clock} alt="clock icon" className="w-6" />
+        <p>
+          Mon-Fri 9:00am-5:00pm <br /> Saturday: appointment only
+        </p>
       </div>
     </div>
   );
