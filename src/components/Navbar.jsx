@@ -54,16 +54,16 @@ function Navbar({ openModal }) {
               Services
             </li>
           </Link>
-          <Link to="/questionnaire">
+          {/* <Link to="/questionnaire">
             <li className="list-none font-medium transition-all hover:text-logoBlue">
               Questionnaire
             </li>
-          </Link>
-          {/* <Link to="/reviews">
-            <li className="list-none font-medium transition-all hover:text-logoBlue">
-              Follow Us
-            </li>
           </Link> */}
+          <Link to="/resources">
+            <li className="list-none font-medium transition-all hover:text-logoBlue">
+              Resources
+            </li>
+          </Link>
           <button
             onClick={openModal}
             className="rounded-sm bg-logoBlue hover:bg-logoHover p-2 px-5 font-medium text-white transition-all"

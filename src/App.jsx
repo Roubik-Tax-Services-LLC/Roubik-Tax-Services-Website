@@ -5,9 +5,10 @@ import Navbar from "./components/Navbar";
 import HomePage from "./HomePage";
 import About from "./About";
 import Services from "./Services";
-import Questionnaire from "./Questionnaire";
+// import Questionnaire from "./Questionnaire";
 import Footer from "./components/Footer";
 import ContactModal from "./components/ContactModal";
+import Resources from "./Resources";
 
 function NotFound() {
   return (
@@ -44,7 +45,8 @@ function App() {
         <Route exact path="/" element={<HomePage openModal={openModal} />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/services" element={<Services />} />
-        <Route exact path="/questionnaire" element={<Questionnaire />} />
+        <Route exact path="/resources" element={<Resources />} />
+        {/* <Route exact path="/questionnaire" element={<Questionnaire />} /> */}
         <Route exact path="*" element={<NotFound />} />
       </Routes>
       <Footer />
