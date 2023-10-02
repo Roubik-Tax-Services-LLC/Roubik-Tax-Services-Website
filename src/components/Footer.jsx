@@ -15,7 +15,7 @@ function Footer() {
             </div>
           </Link>
         </div>
-        <div className="space-y-2 text-sm basis-1/4">
+        <div className="space-y-2 text-sm basis-1/2">
           <p className="text-base font-bold tracking-wide text-gray-900">
             Contacts
           </p>
@@ -55,7 +55,7 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div className="basis-1/4">
+        {/* <div className="basis-1/4">
           <span className="text-base font-bold tracking-wide text-gray-900">
             Follow Us
           </span>
@@ -66,40 +66,9 @@ function Footer() {
               </div>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
-      {/* <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
-        <p className="text-sm text-gray-600">
-          © Copyright 2020 Lorem Inc. All rights reserved.
-        </p>
-        <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-          <li>
-            <a
-              href="/"
-              className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-            >
-              F.A.Q
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-            >
-              Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-            >
-              Terms &amp; Conditions
-            </a>
-          </li>
-        </ul>
-      </div> */}
-      {/* </div> */}
+      
     </div>
   );
 }

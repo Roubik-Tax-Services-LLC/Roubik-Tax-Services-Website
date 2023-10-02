@@ -51,7 +51,12 @@ function Navbar({ openModal }) {
           </Link>
           <Link to="/services">
             <li className="list-none font-medium transition-all hover:text-logoBlue">
-              Services
+              Tax Planning
+            </li>
+          </Link>
+          <Link to="/services">
+            <li className="list-none font-medium transition-all hover:text-logoBlue">
+              Tax Preparation
             </li>
           </Link>
           {/* <Link to="/questionnaire">
@@ -64,12 +69,14 @@ function Navbar({ openModal }) {
               Resources
             </li>
           </Link>
-          <button
-            onClick={openModal}
+          <a
+            href="https://login2.atomanager.com/ATOM_FTSFRANCHISE/WebInfo.aspx"
+            target="_blank"
+            rel="noreferrer"
             className="rounded-sm bg-logoBlue hover:bg-logoHover p-2 px-5 font-medium text-white transition-all"
           >
-            Contact Us
-          </button>
+            Client Portal
+          </a>
         </div>
       </nav>
       {/* Mobile Nav */}

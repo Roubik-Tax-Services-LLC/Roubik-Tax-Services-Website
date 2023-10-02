@@ -6,9 +6,9 @@ import ClientQuestionnaire from "../ClientQuestionnaire";
 
 const HomePageServices = () => {
   return (
-    <div className="bg-gray-100">
+    <div>
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-9 py-8 sm:px-16 gap-5 lg:py-20">
-        <h3 className="font-semibold text-center text-3xl">Our Services</h3>
+        <h3 className="font-semibold text-center text-3xl">Tax Planning</h3>
         <div className="flex gap-8 md:gap-16 flex-col md:flex-row">
           <div className="md:w-1/2 w-full">
             <Link to="/services">
@@ -30,7 +30,17 @@ const HomePageServices = () => {
               Achieve long-term financial goals for wealth preservation and
               retirement
             </p>
+            <div className="flex justify-center m-5">
+              <Button to={"services"}>Tax Planning</Button>
+            </div>
           </div>
+          <img src="/src/assets/taxplanning3.jpg" className="rounded md:w-1/2 w-full mx-5"/>
+        </div>
+
+
+        <h3 className="font-semibold text-center text-3xl">Tax Preparation</h3>
+        <div className="flex gap-8 md:gap-16 flex-col md:flex-row">
+          <img src="/src/assets/taxprep.jpg" className="md:w-1/2 w-full"/>
           <div className="md:w-1/2 w-full">
             <Link to="/services">
               <h4 className="font-semibold text-lg underline text-logoBlue hover:text-logoHover text-center pb-4 transition-all">
@@ -51,18 +61,25 @@ const HomePageServices = () => {
               Quick and easy, E-filing, direct redeposit refunds and tax
               deduction review
             </p>
+            <div className="flex justify-center m-5">
+              <Button to={"services"}>Tax Planning</Button>
+            </div>
+            
           </div>
         </div>
-        <div className="md:flex lg:gap-10 md:gap-4 md:flex-row hidden lg:py-5">
-          <ClientQuestionnaire />
-          <Button to={"services"}>Learn More</Button>
-          <ClientPortal />
-        </div>
-        <div className="flex flex-col gap-4 items-center md:hidden lg:py-5">
-          <ClientQuestionnaire />
-          <ClientPortal />
-          <Button to={"services"}>Learn More</Button>
-        </div>
+        {/* <div className="md:flex lg:gap-10 md:gap-4 md:flex-row hidden lg:py-5"> */}
+          {/* <ClientQuestionnaire /> */}
+          {/* <Button to={"services"}>Tax Planning</Button> */}
+          {/* <ClientPortal /> */}
+          {/* <Button to={"services"}>Tax Preparation</Button> */}
+          
+        {/* </div> */}
+        {/* <div className="flex flex-col gap-4 items-center md:hidden lg:py-5"> */}
+          {/* <ClientQuestionnaire /> */}
+          {/* <ClientPortal /> */}
+          {/* <Button to={"services"}>Tax Planning</Button> */}
+          {/* <Button to={"services"}>Tax Preparation</Button> */}
+        {/* </div> */}
       </div>
     </div>
   );

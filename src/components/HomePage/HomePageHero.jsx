@@ -19,7 +19,6 @@ const HomePageHero = ({ heroImage, heroImageLandscape, openModal }) => {
         bg-cover
         opacity-50
         md:opacity-30
-
         z-10
         ">
         </div>
