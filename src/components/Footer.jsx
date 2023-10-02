@@ -44,7 +44,7 @@ function Footer() {
           <div className="flex">
             <p className="text-xs mr-1 text-gray-800">Address:</p>
             <a
-              href="https://www.google.com/maps"
+              href="https://maps.app.goo.gl/rNaAYmVgKRtTC8gp6"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Our address"
