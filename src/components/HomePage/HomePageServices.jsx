@@ -8,14 +8,14 @@ const HomePageServices = () => {
   return (
     <div>
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-9 py-8 sm:px-16 gap-5 lg:py-20">
-        <h3 className="font-semibold text-center text-3xl">Tax Planning</h3>
-        <div className="flex gap-8 md:gap-16 flex-col md:flex-row">
-          <div className="md:w-1/2 w-full">
-            <Link to="/services">
-              <h4 className="font-semibold text-lg underline text-logoBlue hover:text-logoHover text-center pb-4 transition-all">
-                Tax Planning
-              </h4>
-            </Link>
+        <h3 className="font-semibold text-center text-3xl">Our Services</h3>
+        <div className="mt-5 flex gap-8 md:gap-16 flex-col md:flex-row">
+          <div className="my-3 lg:w-1/2 w-full">
+            
+            <h4 className="font-semibold text-lg text-center pb-4 transition-all">
+              Tax Planning
+            </h4>
+            
             <p className="flex gap-4 pb-4">
               <img className="w-8" src={checkIcon} alt="check mark icon" />
               Leverage deductions, credits, and exemptions to reduce the amount
@@ -34,16 +34,16 @@ const HomePageServices = () => {
               <Button to={"services"}>Tax Planning</Button>
             </div>
           </div>
-          <img src="/src/assets/taxplanning3.jpg" className="rounded md:w-1/2 w-full mx-5"/>
+          <img src="/src/assets/taxplanning3.jpg" className="hidden lg:block rounded lg:w-1/2 w-full mx-5"/>
         </div>
 
 
-        <h3 className="font-semibold text-center text-3xl">Tax Preparation</h3>
-        <div className="flex gap-8 md:gap-16 flex-col md:flex-row">
-          <img src="/src/assets/taxprep.jpg" className="md:w-1/2 w-full"/>
-          <div className="md:w-1/2 w-full">
+        
+        <div className="md:mt-10 flex gap-8 md:gap-16 flex-col md:flex-row">
+          <img src="/src/assets/taxprep.jpg" className="hidden lg:block rounded lg:w-1/2 w-full mx-5"/>
+          <div className="my-3 lg:w-1/2 w-full">
             <Link to="/services">
-              <h4 className="font-semibold text-lg underline text-logoBlue hover:text-logoHover text-center pb-4 transition-all">
+              <h4 className="font-semibold text-lg text-center pb-4 transition-all">
                 Tax Preparation
               </h4>
             </Link>
