@@ -28,7 +28,7 @@ function Navbar({ openModal }) {
         {/* Menu icon Button */}
         <button
           onClick={() => setShowMenu((prev) => !prev)}
-          className="block md:hidden"
+          className="block lg:hidden"
         >
           <img
             src={menuIcon}
@@ -38,7 +38,7 @@ function Navbar({ openModal }) {
           />
         </button>
         {/* Nav links */}
-        <div className="ml-auto hidden items-center gap-8 md:flex">
+        <div className="ml-auto hidden items-center gap-8 lg:flex">
           <Link to="/">
             <li className="list-none font-medium transition-all hover:text-logoBlue">
               Home
@@ -49,7 +49,7 @@ function Navbar({ openModal }) {
               About
             </li>
           </Link>
-          <Link to="/services">
+          <Link to="/taxplanning">
             <li className="list-none font-medium transition-all hover:text-logoBlue">
               Tax Planning
             </li>
