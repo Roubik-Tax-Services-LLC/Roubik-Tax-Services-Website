@@ -29,7 +29,7 @@ const MobileNavbar = ({ setShowMenu, openModal }) => {
   }, [setShowMenu]);
 
   return (
-    <div className="absolute z-20 h-[calc(100vh_-_100px)] w-full border bg-black bg-opacity-50 md:hidden">
+    <div className="absolute z-50 h-[calc(100vh_-_100px)] w-full border bg-black bg-opacity-50 md:hidden">
       <div
         ref={mobileNavbarRef}
         className="z-20 w-full border-t-2 border-gray-400 bg-slate-100"
@@ -40,55 +40,63 @@ const MobileNavbar = ({ setShowMenu, openModal }) => {
               onClick={() => setShowMenu(false)}
               className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
             >
-              About Us
+              About
             </li>
           </Link>
-
           <Link to="/services">
             <li
               onClick={() => setShowMenu(false)}
               className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
             >
-              Services
+              Tax Planning
+            </li>
+          </Link>
+          <Link to="/services">
+            <li
+              onClick={() => setShowMenu(false)}
+              className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
+            >
+              Tax Preparation
+            </li>
+          </Link>
+          <Link to="/resources">
+            <li
+              onClick={() => setShowMenu(false)}
+              className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
+            >
+              Resources
             </li>
           </Link>
 
-          <Link to="/questionnaire">
+          {/* <Link to="/questionnaire">
             <li
               onClick={() => setShowMenu(false)}
               className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
             >
               Questionnaire
             </li>
-          </Link>
-          {/* <Link to="/Reviews">
-            <li
-              onClick={() => setShowMenu(false)}
-              className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
-            >
-              Follow Us
-            </li>
           </Link> */}
-          {/* <Link> */}
           <div
             onClick={() => setShowMenu(false)}
             className="m-2 flex justify-center"
           >
-            <button
-              onClick={openModal}
+            <a
+              href="https://login2.atomanager.com/ATOM_FTSFRANCHISE/WebInfo.aspx"
+              target="_blank"
+              rel="noreferrer"
               className="mb-3 w-full rounded border-2 border-white bg-logoBlue px-8 py-2 text-center text-lg font-bold text-white transition-all hover:bg-logoHover"
             >
-              Contact Us
-            </button>
+              Client Portal
+            </a>
           </div>
           {/* </Link> */}
           <li className="flex justify-center gap-2 border-b border-gray-300 pb-4 text-slate-500">
             <img src={phone} alt="Phone icon" className="w-6" />
             <a
-              href="tel:4536780978"
+              href="tel:4143166006"
               className="transition-all hover:text-logoBlue"
             >
-              (453)678-0978
+              414-316-6006
             </a>
           </li>
         </ul>

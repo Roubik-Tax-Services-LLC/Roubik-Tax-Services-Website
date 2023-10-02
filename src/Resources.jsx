@@ -1,3 +1,4 @@
+import ContactInfo from "./components/ContactInfo";
 import state from "./assets/state.png";
 import federal from "./assets/federal.png";
 import { useEffect, useState } from "react";
@@ -43,6 +44,7 @@ const Resources = () => {
         </div>
       ) : (
         <div>
+          <ContactInfo />
           <h1 className="font-semibold text-4xl text-center pt-16">
             Where is my refund?
           </h1>
