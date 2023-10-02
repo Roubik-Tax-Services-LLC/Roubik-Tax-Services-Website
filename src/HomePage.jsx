@@ -4,11 +4,12 @@ import { useEffect, useState } from "react";
 import heroImage from "./assets/HeroImage.png";
 import heroImageLandscape from "./assets/LandscapeHero.png";
 import HomePageHero from "./components/HomePage/HomePageHero";
-
 import aboutImage from "./assets/JoePic.jpg";
 import HomePageWelcome from "./components/HomePage/HomePageWelcome";
 import HomePagePlanning from "./components/HomePage/HomePagePlanning";
 import HomePageServices from "./components/HomePage/HomePageServices";
+import taxPlanning from "./assets/taxplanning3.jpg";
+import taxPrep from "./assets/taxprep.jpg";
 import { HashLoader } from "react-spinners";
 import { scrollToTop } from "./utils/scrollToTop";
 
@@ -31,6 +32,16 @@ const HomePage = ({ openModal }) => {
         new Promise((resolve) => {
           const img3 = new Image();
           img3.src = heroImageLandscape;
+          img3.onload = resolve;
+        }),
+        new Promise((resolve) => {
+          const img3 = new Image();
+          img3.src = taxPlanning;
+          img3.onload = resolve;
+        }),
+        new Promise((resolve) => {
+          const img3 = new Image();
+          img3.src = taxPrep;
           img3.onload = resolve;
         }),
       ];
@@ -64,7 +75,7 @@ const HomePage = ({ openModal }) => {
           />
           <HomePageWelcome />
           <HomePagePlanning />
-          <HomePageServices />
+          <HomePageServices taxPlanning={taxPlanning} taxPrep={taxPrep} />
         </>
       )}
     </>
