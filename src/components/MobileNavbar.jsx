@@ -29,7 +29,7 @@ const MobileNavbar = ({ setShowMenu, openModal }) => {
   }, [setShowMenu]);
 
   return (
-    <div className="absolute z-50 h-[calc(100vh_-_100px)] w-full border bg-black bg-opacity-50 md:hidden">
+    <div className="absolute z-50 h-[calc(100vh_-_100px)] w-full border bg-black bg-opacity-50 lg:hidden">
       <div
         ref={mobileNavbarRef}
         className="z-20 w-full border-t-2 border-gray-400 bg-slate-100"
@@ -43,7 +43,7 @@ const MobileNavbar = ({ setShowMenu, openModal }) => {
               About
             </li>
           </Link>
-          <Link to="/services">
+          <Link to="/taxplanning">
             <li
               onClick={() => setShowMenu(false)}
               className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
