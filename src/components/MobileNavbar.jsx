@@ -51,7 +51,7 @@ const MobileNavbar = ({ setShowMenu, openModal }) => {
               Tax Planning
             </li>
           </Link>
-          <Link to="/services">
+          <Link to="/taxprep">
             <li
               onClick={() => setShowMenu(false)}
               className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
