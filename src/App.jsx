@@ -4,7 +4,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import HomePage from "./HomePage";
 import About from "./About";
-import Services from "./Services";
+import TaxPlanning from "./TaxPlanning";
 import TaxPrep from "./TaxPrep";
 // import Questionnaire from "./Questionnaire";
 import Footer from "./components/Footer";
@@ -45,7 +45,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomePage openModal={openModal} />} />
         <Route exact path="/about" element={<About />} />
-        <Route exact path="/services" element={<Services />} />
+        <Route exact path="/taxplanning" element={<TaxPlanning />} />
         <Route exact path="/taxprep" element={<TaxPrep />} />
         <Route exact path="/resources" element={<Resources />} />
         {/* <Route exact path="/questionnaire" element={<Questionnaire />} /> */}
