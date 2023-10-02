@@ -2,19 +2,29 @@ const HomePageHero = ({ heroImage, heroImageLandscape, openModal }) => {
   return (
     <>
       <main>
-        <section className="relative w-full">
-          <img
-            className="block w-full brightness-[60%] sm:hidden"
-            src={heroImage}
-            alt="Woman wiping down a table"
-          />
-          <img
-            className="hidden w-full h-auto xl:h-screen xl:w-auto brightness-50 sm:block sm:brightness-[60%]"
-            src={heroImageLandscape}
-            alt="Woman wiping down a table"
-          />
+        <section className="
+        bg-[url('/src/assets/HeroImage.png')] 
+        md:bg-[url('/src/assets/LandscapeHero.png')]
+        h-[calc(100vh-304px)]
+        lg:h-[calc(100vh-184px)]
+        xl:h-[calc(100vh-192px)] 
+        relative 
+        bg-cover bg-center 
+        ">
+        <div className="
+        w-full
+        h-full
+        absolute
+        bg-black
+        bg-cover
+        opacity-50
+        md:opacity-30
+
+        z-10
+        ">
+        </div>
           {/* Div of text that overlays hero image */}
-          <div className="absolute left-1/2 top-1/2 flex w-full -translate-x-1/2 -translate-y-1/2 flex-col gap-4 text-center text-white sm:left-0 sm:mx-16 sm:w-auto sm:-translate-x-0 sm:text-left xl:mx-40 2xl:mx-48">
+          <div className="absolute left-1/2 top-1/2 flex w-full -translate-x-1/2 -translate-y-1/2 flex-col gap-4 text-center text-white sm:left-0 sm:mx-16 sm:w-auto sm:-translate-x-0 sm:text-left xl:mx-40 2xl:mx-48 z-20">
             <h2 className="text-xl font-light">
               Professional tax services at a fair price.
             </h2>
