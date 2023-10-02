@@ -108,10 +108,30 @@ const About = () => {
                     Tax Advisor
                   </h4>
                   <p className="font-light">
-                    Joe holds a Masters degree in Business Administration from
-                    Cardinal Stritch University and a Bachelors of Arts degree
-                    in Sociology and Interpersonal Communications from
-                    Marquette.
+                    Joseph Roubik, began his financial advisory career in 1995.
+                    Founder of MoneyWise Planning Group LLC as an Independent
+                    Wealth Advisor in 2003, he currently practices through
+                    Woodbury Financial Services, Inc. In 2016, he joined Focused
+                    Tax Solutions to add tax prep and tax planning. He has
+                    extensive experience and training in retirement income, tax
+                    and estate preservation planning.<br></br>
+                    <br></br> Born and raised in West Allis, WI, he graduated
+                    from Marquette University receiving a bachelor’s degree in
+                    Sociology and Interpersonal Communications. He holds a
+                    master’s degree in Business Administration from Cardinal
+                    Stritch College and currently resides in Muskego, WI.{" "}
+                    <br></br>
+                    <br></br>Joe is a member of the Tenacity Advisors Group
+                    (TAG), a family of independent financial professionals who
+                    meet regularly to share education, experience, and best
+                    practices. He also enjoys volunteering and serving on the
+                    Pastoral Council of St. Leonard Parish in Muskego, WI.{" "}
+                    <br></br>
+                    <br></br>Joe speaks of his life work with passion. “I have
+                    the best job! Every day my staff and I work hard to bring
+                    success and confidence to our clients. Knowing that we have
+                    helped so many people reach their financial goals and build
+                    a financially sound moneywise life is why we do what we do.”
                   </p>
                 </div>
               </div>
@@ -151,9 +171,12 @@ const About = () => {
                     Administrative Assistant
                   </h4>
                   <p className="font-light">
-                    Diana received her Bachelor’s Degree in International
-                    Business and Communications from Cardinal Stritch
-                    University.
+                    Diana manages day to day operations at MoneyWise Planning
+                    Group LLC. She received her Bachelor’s Degree in
+                    International Business and Communications from Cardinal
+                    Stritch University. Outside of the office, Diana spends her
+                    time walking along the lake’s shore, graphic designing and
+                    trying new foods.
                   </p>
                 </div>
               </div>
