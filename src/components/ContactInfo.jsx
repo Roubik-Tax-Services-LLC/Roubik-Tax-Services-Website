@@ -9,11 +9,11 @@ const ContactInfo = () => {
       <div className="flex flex-col place-items-start gap-3 py-6 text-sm lg:items-center lg:flex-row lg:gap-12 xl:text-base xl:gap-28 px-4">
         <div className="flex items-center gap-2 font-semibold">
           <img src={phone} alt="Phone icon" className="w-6" />
-          <a href="tel:+14536780978">414-316-6006</a>
+          <a href="tel:+14143166006">414-316-6006</a>
         </div>
         <div className="flex items-center gap-2 font-semibold">
           <img src={email} alt="Email icon" className="w-7" />
-          <a href="mailto:joe@roubiktaxservices.com">info@roubiktax.com</a>
+          <a href="mailto:info@roubiktax.com">info@roubiktax.com</a>
         </div>
         <div className="flex items-center gap-2 font-semibold">
           <img src={pin} alt="Map pin icon" className="w-6" />

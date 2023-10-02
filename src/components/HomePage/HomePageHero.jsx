@@ -2,16 +2,19 @@ const HomePageHero = ({ heroImage, heroImageLandscape, openModal }) => {
   return (
     <>
       <main>
-        <section className="
-        bg-[url('/src/assets/HeroImage.png')] 
+        <section
+          className="
+        bg-[url('/src/assets/HeroImage.png')]
         md:bg-[url('/src/assets/LandscapeHero.png')]
         h-[calc(100vh-304px)]
         lg:h-[calc(100vh-184px)]
-        xl:h-[calc(100vh-192px)] 
-        relative 
-        bg-cover bg-center 
-        ">
-        <div className="
+        xl:h-[calc(100vh-192px)]
+        relative
+        bg-cover bg-center
+        "
+        >
+          <div
+            className="
         w-full
         h-full
         absolute
@@ -20,10 +23,10 @@ const HomePageHero = ({ heroImage, heroImageLandscape, openModal }) => {
         opacity-50
         md:opacity-30
         z-10
-        ">
-        </div>
+        "
+          ></div>
           {/* Div of text that overlays hero image */}
-          <div className="absolute left-1/2 top-1/2 flex w-full -translate-x-1/2 -translate-y-1/2 flex-col gap-4 text-center text-white sm:left-0 sm:mx-16 sm:w-auto sm:-translate-x-0 sm:text-left xl:mx-40 2xl:mx-48 z-20">
+          <div className="absolute left-1/2 top-1/2 flex w-full -translate-x-1/2 -translate-y-1/2 flex-col gap-4 text-center text-white sm:left-0 sm:mx-16 sm:w-auto sm:-translate-x-0 sm:text-left xl:mx-40 2xl:mx-48 z-[11]">
             <h2 className="text-xl font-light">
               Professional tax services at a fair price.
             </h2>
