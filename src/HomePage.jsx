@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import heroImage from "./assets/HeroImage.png";
 import heroImageLandscape from "./assets/LandscapeHero.png";
 import HomePageHero from "./components/HomePage/HomePageHero";
-import HomePageAbout from "./components/HomePage/HomePageAbout";
+
 import aboutImage from "./assets/JoePic.jpg";
 import HomePageWelcome from "./components/HomePage/HomePageWelcome";
 import HomePagePlanning from "./components/HomePage/HomePagePlanning";
@@ -65,7 +65,6 @@ const HomePage = ({ openModal }) => {
           <HomePageWelcome />
           <HomePagePlanning />
           <HomePageServices />
-          <HomePageAbout aboutImage={aboutImage} />
         </>
       )}
     </>
