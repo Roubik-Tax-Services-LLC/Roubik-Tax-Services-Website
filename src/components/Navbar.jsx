@@ -54,7 +54,7 @@ function Navbar({ openModal }) {
               Tax Planning
             </li>
           </Link>
-          <Link to="/services">
+          <Link to="/taxprep">
             <li className="list-none font-medium transition-all hover:text-logoBlue">
               Tax Preparation
             </li>
