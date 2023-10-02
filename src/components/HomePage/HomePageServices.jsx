@@ -30,7 +30,7 @@ const HomePageServices = ({ taxPlanning, taxPrep }) => {
               retirement
             </p>
             <div className="flex justify-center m-5">
-              <Button to={"services"}>Tax Planning</Button>
+              <Button to={"taxplanning"}>Tax Planning</Button>
             </div>
           </div>
           <img
@@ -65,7 +65,7 @@ const HomePageServices = ({ taxPlanning, taxPrep }) => {
               deduction review
             </p>
             <div className="flex justify-center m-5">
-              <Button to={"services"}>Tax Planning</Button>
+              <Button to={"taxprep"}>Tax Preparation</Button>
             </div>
           </div>
         </div>
