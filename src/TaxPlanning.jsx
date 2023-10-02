@@ -1,8 +1,8 @@
 import ContactInfo from "./components/ContactInfo";
-import ClientPortal from "./components/ClientPortal";
-import ClientQuestionnaire from "./components/ClientQuestionnaire";
-import taxPreparation from "./assets/taxplanning2.jpg";
-import taxPlanning from "./assets/taxplanning.jpg";
+// import ClientPortal from "./components/ClientPortal";
+// import ClientQuestionnaire from "./components/ClientQuestionnaire";
+// import taxPreparation from "./assets/taxplanning2.jpg";
+// import taxPlanning from "./assets/taxplanning.jpg";
 import lightBulb from "./assets/light-bulb.png";
 import like from "./assets/like.png";
 import { HashLoader } from "react-spinners";
@@ -49,27 +49,27 @@ const TaxPlanning = () => {
       ) : (
         <>
           <ContactInfo />
-          <div className="max-w-4xl flex flex-col gap-10 lg:mx-auto mx-10 py-16">
+          <div className="max-w-5xl flex flex-col gap-10 xl:mx-auto mx-10 pt-16 pb-20">
             <h1 className="font-semibold text-4xl text-center">
               Tax Plannning
             </h1>
             <div>
               <div className="flex flex-col gap-4">
-                <h5 className="font-semibold flex items-center gap-2">
-                  <img className="w-12" src={like} alt="like button" />
+                <h5 className="font-semibold flex items-center gap-4">
+                  <img className="w-11" src={like} alt="like button" />
                   THE ADVANTAGE:
                 </h5>
-                <p>
+                <p className="pl-16">
                   If you're like most individuals or Small Businesses, you
                   probably think you pay too much tax. And you're probably
                   right! So perhaps you're considering a new tax pro this year.
                 </p>
-                <p>
+                <p className="pl-16">
                   Most tax professionals do a fine job putting the "right"
                   numbers in the "right" boxes on the "right" forms, but then
                   they call it a day.
                 </p>
-                <p>
+                <p className="pl-16">
                   It doesn't matter how good your tax preparer is with a stack
                   of receipts on April 15. The real secret to reducing your tax
                   bill is{" "}
@@ -79,11 +79,11 @@ const TaxPlanning = () => {
             </div>
             <div>
               <div className="flex flex-col gap-4">
-                <h5 className="font-semibold flex items-center gap-2">
-                  <img className="w-12" src={lightBulb} alt="lightbulb" />
+                <h5 className="font-semibold flex items-center gap-4">
+                  <img className="w-11" src={lightBulb} alt="lightbulb" />
                   WHY WE'RE DIFFERENT:
                 </h5>
-                <p>
+                <p className="pl-16">
                   <span className="italic text-logoBlue">
                     At <span className="underline">Roubik Tax Services</span>,
                     we're different.
@@ -96,7 +96,7 @@ const TaxPlanning = () => {
                   how proactive planning can save those dollars. We guarantee
                   you'll leave with new information.
                 </p>
-                <ul className="list-disc flex flex-col gap-1 pl-5">
+                <ul className="list-disc flex flex-col gap-1 pl-20">
                   <li>Comprehensive Tax Analysis for your Situation</li>
                   <li>Written Plan outlining specific action steps</li>
                   <li>Consultation with Tax Planner to review Analysis</li>
