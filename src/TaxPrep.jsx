@@ -47,7 +47,7 @@ const TaxPreparation = () => {
       ) : (
         <>
           <ContactInfo />
-          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
             <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
               <div className="relative">
                 <img
@@ -56,8 +56,8 @@ const TaxPreparation = () => {
                   alt=""
                 />
               </div>
-              <div className="lg:py-6 lg:pr-16">
-                <div className="max-w-xl mb-10 md:mx-auto lg:max-w-2xl md:mb-12">
+              <div className="lg:py-3 lg:pr-16">
+                <div className="max-w-xl mb-5 md:mx-auto lg:max-w-2xl">
                   <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                     Tax Preparation
                   </h2>
@@ -97,10 +97,10 @@ const TaxPreparation = () => {
                     </div>
                     <div className="w-px h-full bg-gray-300" />
                   </div>
-                  <div className="pt-1 pb-8">
+                  <div className="pt-1 pb-4">
                     <p className="mb-2 text-lg font-bold">Step 1</p>
                     <p className="text-gray-700">
-                      Complete our online client questionnaire.
+                      Complete our online <a className="underline hover:text-logoHover font-semibold" href="./components/ClientQuestionnaire.jsx">Client Questionnaire</a>.
                     </p>
                   </div>
                 </div>
@@ -134,10 +134,10 @@ const TaxPreparation = () => {
                     </div>
                     <div className="w-px h-full bg-gray-300" />
                   </div>
-                  <div className="pt-1 pb-8">
+                  <div className="pt-1 pb-4">
                     <p className="mb-2 text-lg font-bold">Step 2</p>
                     <p className="text-gray-700">
-                      Create an account and login to our Secure Portal. Submit
+                      Create an account and login to our secure <a className=" underline hover:text-logoHover font-semibold" href="https://login2.atomanager.com/ATOM_FTSFRANCHISE/WebInfo.aspx" target="_blank" rel="noreferrer">Client Portal</a>. Submit
                       this year's important tax documents (or US Mail, fax, or
                       locally by appointment).
                     </p>
@@ -173,10 +173,10 @@ const TaxPreparation = () => {
                     </div>
                     <div className="w-px h-full bg-gray-300" />
                   </div>
-                  <div className="pt-1 pb-8">
+                  <div className="pt-1 pb-4">
                     <p className="mb-2 text-lg font-bold">Step 3</p>
                     <p className="text-gray-700">
-                      Call (453) 678-0978 to schedule FREE client consultation
+                      Call (414) 316-6006 to schedule FREE client consultation
                       and review of documents.
                     </p>
                   </div>
@@ -211,7 +211,7 @@ const TaxPreparation = () => {
                     </div>
                     <div className="w-px h-full bg-gray-300" />
                   </div>
-                  <div className="pt-1 pb-8">
+                  <div className="pt-1 pb-4">
                     <p className="mb-2 text-lg font-bold">Step 4</p>
                     <p className="text-gray-700">
                       We prepare and review your tax return (Direct calls to you
@@ -249,7 +249,7 @@ const TaxPreparation = () => {
                     </div>
                     <div className="w-px h-full bg-gray-300" />
                   </div>
-                  <div className="pt-1 pb-8">
+                  <div className="pt-1 pb-4">
                     <p className="mb-2 text-lg font-bold">Step 5</p>
                     <p className="text-gray-700">
                       We deliver and review your completed tax returns (Secure
@@ -285,10 +285,10 @@ const TaxPreparation = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-12 justify-center md:flex lg:gap-10 md:gap-4 md:flex-row">
+            {/* <div className="mt-12 justify-center md:flex lg:gap-10 md:gap-4 md:flex-row">
               <ClientQuestionnaire />
               <ClientPortal />
-            </div>
+            </div> */}
           </div>
         </>
       )}
