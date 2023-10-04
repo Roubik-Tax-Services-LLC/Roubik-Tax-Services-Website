@@ -16,16 +16,28 @@ const HomePageServices = ({ taxPlanning, taxPrep }) => {
             </h4>
 
             <p className="flex gap-4 pb-4">
-              <img className="w-8" src={checkIcon} alt="check mark icon" />
+              <img
+                className="w-6 sm:w-8"
+                src={checkIcon}
+                alt="check mark icon"
+              />
               Leverage deductions, credits, and exemptions to reduce the amount
               of taxes owed
             </p>
             <p className="flex gap-4 pb-4">
-              <img className="w-8" src={checkIcon} alt="check mark icon" />
+              <img
+                className="w-6 sm:w-8"
+                src={checkIcon}
+                alt="check mark icon"
+              />
               Maximize cash flow
             </p>
             <p className="flex gap-4">
-              <img className="w-8" src={checkIcon} alt="check mark icon" />
+              <img
+                className="w-6 sm:w-8"
+                src={checkIcon}
+                alt="check mark icon"
+              />
               Achieve long-term financial goals for wealth preservation and
               retirement
             </p>
@@ -51,16 +63,28 @@ const HomePageServices = ({ taxPlanning, taxPrep }) => {
               </h4>
             </Link>
             <p className="flex gap-4 pb-4">
-              <img className="w-8" src={checkIcon} alt="check mark icon" />
+              <img
+                className="w-6 sm:w-8"
+                src={checkIcon}
+                alt="check mark icon"
+              />
               We adhere to tax laws and regulations while optimizing your
               financial outcomes
             </p>
             <p className="flex gap-4 pb-4">
-              <img className="w-8" src={checkIcon} alt="check mark icon" />
+              <img
+                className="w-6 sm:w-8"
+                src={checkIcon}
+                alt="check mark icon"
+              />
               Maximize deductions and credits
             </p>
             <p className="flex gap-4 pb-4">
-              <img className="w-8" src={checkIcon} alt="check mark icon" />
+              <img
+                className="w-6 sm:w-8"
+                src={checkIcon}
+                alt="check mark icon"
+              />
               Quick and easy, E-filing, direct redeposit refunds and tax
               deduction review
             </p>
