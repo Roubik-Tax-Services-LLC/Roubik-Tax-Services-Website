@@ -35,6 +35,14 @@ const MobileNavbar = ({ setShowMenu, openModal }) => {
         className="z-20 w-full border-t-2 border-gray-400 bg-slate-100"
       >
         <ul className="mx-4 pb-2 text-xl">
+          <Link to="/">
+            <li
+              onClick={() => setShowMenu(false)}
+              className="border-b border-gray-300 py-4 transition-all hover:text-logoBlue"
+            >
+              Home
+            </li>
+          </Link>
           <Link to="/about">
             <li
               onClick={() => setShowMenu(false)}
@@ -81,7 +89,7 @@ const MobileNavbar = ({ setShowMenu, openModal }) => {
             className="m-2 flex justify-center"
           >
             <a
-              href="https://login2.atomanager.com/ATOM_FTSFRANCHISE/WebInfo.aspx"
+              href="https://login.atomanager.com/ATOM_RBK/WebInfo.aspx"
               target="_blank"
               rel="noreferrer"
               className="mb-3 w-full rounded border-2 border-white bg-logoBlue px-8 py-2 text-center text-lg font-bold text-white transition-all hover:bg-logoHover"
