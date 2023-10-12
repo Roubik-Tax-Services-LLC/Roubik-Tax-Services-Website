@@ -100,7 +100,14 @@ const TaxPreparation = () => {
                   <div className="pt-1 pb-4">
                     <p className="mb-2 text-lg font-bold">Step 1</p>
                     <p className="text-gray-700">
-                      Complete our online <a className="underline hover:text-logoHover font-semibold" href="./components/ClientQuestionnaire.jsx">Client Questionnaire</a>.
+                      Complete our online{" "}
+                      <a
+                        className="underline hover:text-logoHover font-semibold"
+                        href="./components/ClientQuestionnaire.jsx"
+                      >
+                        Client Questionnaire
+                      </a>
+                      .
                     </p>
                   </div>
                 </div>
@@ -137,9 +144,17 @@ const TaxPreparation = () => {
                   <div className="pt-1 pb-4">
                     <p className="mb-2 text-lg font-bold">Step 2</p>
                     <p className="text-gray-700">
-                      Create an account and login to our secure <a className=" underline hover:text-logoHover font-semibold" href="https://login2.atomanager.com/ATOM_FTSFRANCHISE/WebInfo.aspx" target="_blank" rel="noreferrer">Client Portal</a>. Submit
-                      this year's important tax documents (or US Mail, fax, or
-                      locally by appointment).
+                      Create an account and login to our secure{" "}
+                      <a
+                        className="underline hover:text-logoHover font-semibold"
+                        href="https://login.atomanager.com/ATOM_RBK/WebInfo.aspx"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Client Portal
+                      </a>
+                      . Submit this year's important tax documents (or US Mail,
+                      fax, or locally by appointment).
                     </p>
                   </div>
                 </div>

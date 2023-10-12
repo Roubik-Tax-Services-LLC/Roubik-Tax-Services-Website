@@ -70,7 +70,7 @@ function Navbar({ openModal }) {
             </li>
           </Link>
           <a
-            href="https://login2.atomanager.com/ATOM_FTSFRANCHISE/WebInfo.aspx"
+            href="https://login.atomanager.com/ATOM_RBK/WebInfo.aspx"
             target="_blank"
             rel="noreferrer"
             className="rounded-sm bg-logoBlue hover:bg-logoHover p-2 px-5 font-medium text-white transition-all"
