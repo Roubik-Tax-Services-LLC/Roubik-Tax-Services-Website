@@ -32,7 +32,7 @@ const HomePageServices = ({ taxPlanning, taxPrep }) => {
               />
               Maximize cash flow
             </p>
-            <p className="flex gap-4">
+            <p className="flex gap-4 pb-4">
               <img
                 className="w-6 sm:w-8"
                 src={checkIcon}
@@ -45,23 +45,10 @@ const HomePageServices = ({ taxPlanning, taxPrep }) => {
               <Button to={"taxplanning"}>Tax Planning</Button>
             </div>
           </div>
-          <img
-            src={taxPlanning}
-            className="hidden lg:block rounded lg:w-1/2 w-full mx-5"
-          />
-        </div>
-
-        <div className="md:mt-10 flex gap-8 md:gap-16 flex-col md:flex-row">
-          <img
-            src={taxPrep}
-            className="hidden lg:block rounded lg:w-1/2 w-full mx-5"
-          />
           <div className="my-3 lg:w-1/2 w-full">
-            <Link to="/services">
-              <h4 className="font-semibold text-lg text-center pb-4 transition-all">
-                Tax Preparation
-              </h4>
-            </Link>
+            <h4 className="font-semibold text-lg text-center pb-4 transition-all">
+              Tax Preparation
+            </h4>
             <p className="flex gap-4 pb-4">
               <img
                 className="w-6 sm:w-8"
@@ -93,6 +80,7 @@ const HomePageServices = ({ taxPlanning, taxPrep }) => {
             </div>
           </div>
         </div>
+
         {/* <div className="md:flex lg:gap-10 md:gap-4 md:flex-row hidden lg:py-5"> */}
         {/* <ClientQuestionnaire /> */}
         {/* <Button to={"services"}>Tax Planning</Button> */}
