@@ -54,6 +54,19 @@ function Footer() {
               7111 W. Edgerton Ave., Suite 302 Greenfield, WI 53220
             </a>
           </div>
+          <div className="flex">
+            <p className="text-xs mr-1 text-gray-800">LinkedIn:</p>
+            <a
+              href="https://linkedin.com/company/roubik-tax-services"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Our LinkedIn"
+              title="Our LinkedIn"
+              className="text-xs transition-colors duration-300 text-logoHover"
+            >
+              Roubik Tax Services LLC
+            </a>
+          </div>
         </div>
         {/* <div className="basis-1/4">
           <span className="text-base font-bold tracking-wide text-gray-900">
@@ -68,7 +81,6 @@ function Footer() {
           </div>
         </div> */}
       </div>
-      
     </div>
   );
 }
