@@ -51,7 +51,7 @@ const About = () => {
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto text-center">
                 Meet the Team
               </h2>
-              <p className="text-base text-gray-700 md:text-lg">
+              {/* <p className="text-base text-gray-700 md:text-lg">
                 Our{" "}
                 <span className="uppercase text-logoHover font-semibold ">
                   mission
@@ -69,7 +69,7 @@ const About = () => {
                 is to significantly improve our clients, community, and
                 ourselves through becoming the most trusted for our vision,
                 education, and service.
-              </p>
+              </p> */}
             </div>
           </div>
           <div>
@@ -108,30 +108,33 @@ const About = () => {
                     Tax Advisor
                   </h4>
                   <p className="font-light">
-                    Joseph Roubik, began his financial advisory career in 1995.
-                    Founder of MoneyWise Planning Group LLC as an Independent
-                    Wealth Advisor in 2003, he currently practices through
-                    Woodbury Financial Services, Inc. In 2016, he joined Focused
-                    Tax Solutions to add tax prep and tax planning. He has
-                    extensive experience and training in retirement income, tax
-                    and estate preservation planning.<br></br>
-                    <br></br> Born and raised in West Allis, WI, he graduated
-                    from Marquette University receiving a bachelor’s degree in
-                    Sociology and Interpersonal Communications. He holds a
-                    master’s degree in Business Administration from Cardinal
-                    Stritch College and currently resides in Muskego, WI.{" "}
-                    <br></br>
-                    <br></br>Joe is a member of the Tenacity Advisors Group
+                    Joe began his financial advisory career in 1995. Founder of
+                    MoneyWise Planning Group LLC as an independent Wealth
+                    Advisor in 2003, he currently practices through Osaic
+                    Wealth, Inc. In 2016, Joe added tax preparation and
+                    planning, joining Focused Tax Solutions as its first
+                    franchisee. In 2023, Joe took the tax business independent
+                    and rebranded to Roubik Tax Services, LLC. Joe has extensive
+                    experience and training in retirement income, tax, and
+                    estate preservation planning.<br></br>
+                    <br></br> Born and raised in West Allis, WI, Joe graduated
+                    from Marquette University in 1987, receiving a bachelor’s
+                    degree in Sociology and Interpersonal Communications. He
+                    also holds a master’s degree in Business Administration from
+                    Cardinal Stritch College. Joe currently resides with his
+                    wife, Pat in Muskego, WI. <br></br>
+                    <br></br>Joe is a member of the Tenacity Advisory Group
                     (TAG), a family of independent financial professionals who
-                    meet regularly to share education, experience, and best
-                    practices. He also enjoys volunteering and serving on the
-                    Pastoral Council of St. Leonard Parish in Muskego, WI.{" "}
-                    <br></br>
-                    <br></br>Joe speaks of his life work with passion. “I have
-                    the best job! Every day my staff and I work hard to bring
-                    success and confidence to our clients. Knowing that we have
-                    helped so many people reach their financial goals and build
-                    a financially sound moneywise life is why we do what we do.”
+                    support each other and meet regularly to share education,
+                    experience, and best practices. He enjoys volunteering on
+                    many levels and currently serves on the Friends Of Wehr
+                    board of directors. <br></br>
+                    <br></br>Joe speaks of his life’s work with great passion.
+                    “I have the best job! Every day my staff and I work hard to
+                    positively impact our clients’ lives. Knowing that over the
+                    years we have helped so many people reach their personal and
+                    family goals to build a sound financial life is why we do
+                    what we do.”
                   </p>
                 </div>
               </div>

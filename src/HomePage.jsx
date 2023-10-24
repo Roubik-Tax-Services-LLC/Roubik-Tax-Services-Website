@@ -19,11 +19,11 @@ const HomePage = ({ openModal }) => {
   useEffect(() => {
     const loadImages = () => {
       const imagePromises = [
-        new Promise((resolve) => {
-          const img1 = new Image();
-          img1.src = aboutImage;
-          img1.onload = resolve;
-        }),
+        // new Promise((resolve) => {
+        //   const img1 = new Image();
+        //   img1.src = aboutImage;
+        //   img1.onload = resolve;
+        // }),
         new Promise((resolve) => {
           const img2 = new Image();
           img2.src = heroImage;
@@ -34,16 +34,16 @@ const HomePage = ({ openModal }) => {
           img3.src = heroImageLandscape;
           img3.onload = resolve;
         }),
-        new Promise((resolve) => {
-          const img3 = new Image();
-          img3.src = taxPlanning;
-          img3.onload = resolve;
-        }),
-        new Promise((resolve) => {
-          const img3 = new Image();
-          img3.src = taxPrep;
-          img3.onload = resolve;
-        }),
+        // new Promise((resolve) => {
+        //   const img3 = new Image();
+        //   img3.src = taxPlanning;
+        //   img3.onload = resolve;
+        // }),
+        // new Promise((resolve) => {
+        //   const img3 = new Image();
+        //   img3.src = taxPrep;
+        //   img3.onload = resolve;
+        // }),
       ];
 
       Promise.all(imagePromises).then(() => {

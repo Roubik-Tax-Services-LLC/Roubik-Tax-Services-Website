@@ -45,10 +45,10 @@ const Resources = () => {
       ) : (
         <div>
           <ContactInfo />
-          <h1 className="font-semibold text-4xl text-center pt-16">
+          <h1 className="font-semibold text-2xl sm:text-4xl text-center pt-6 sm:pt-16">
             Where is my refund?
           </h1>
-          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="px-4 pt-6 pb-16 sm:py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="grid max-w-screen-lg gap-8 row-gap-5 md:row-gap-8 sm:mx-auto lg:grid-cols-2">
               <div className="transition duration-300 transform bg-white rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
                 <div className="relative">
@@ -94,14 +94,23 @@ const Resources = () => {
                     State
                   </h5>
                   <p className="mb-5 text-gray-700">
-                    Click the button below to track your Wisconsin refund.
+                    Click one of the buttons below to track your state refund.
                   </p>
                   <a
                     href="https://tap.revenue.wi.gov/RefundStatus/_/#2"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-logoBlue hover:bg-logoHover focus:shadow-outline focus:outline-none">
+                    <button className="inline-flex items-center justify-center h-12 px-9 mr-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-logoBlue hover:bg-logoHover focus:shadow-outline focus:outline-none">
+                      WI
+                    </button>
+                  </a>
+                  <a
+                    href="https://taxadmin.org/fta-members/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="inline-flex items-center justify-center ml-3 h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-logoBlue hover:bg-logoHover focus:shadow-outline focus:outline-none">
                       State
                     </button>
                   </a>

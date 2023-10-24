@@ -6,9 +6,9 @@ const HomePageHero = ({ heroImage, heroImageLandscape, openModal }) => {
           className="
         bg-[url('/src/assets/HeroImage.png')]
         md:bg-[url('/src/assets/LandscapeHero.png')]
-        h-[calc(100vh-304px)]
-        lg:h-[calc(100vh-184px)]
-        xl:h-[calc(100vh-192px)]
+        h-[calc(92vh-304px)]
+        lg:h-[calc(92vh-184px)]
+        xl:h-[calc(92vh-192px)]
         relative
         bg-cover bg-center
         "
