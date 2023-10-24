@@ -50,9 +50,7 @@ const TaxPlanning = () => {
         <>
           <ContactInfo />
           <div className="max-w-5xl flex flex-col gap-10 xl:mx-auto mx-10 pt-16 pb-20">
-            <h1 className="font-semibold text-4xl text-center">
-              Tax Plannning
-            </h1>
+            <h1 className="font-semibold text-4xl text-center">Tax Planning</h1>
             <div>
               <div className="flex flex-col gap-4">
                 <h5 className="font-semibold flex items-center gap-4">
