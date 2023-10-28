@@ -13,11 +13,11 @@ const TaxPreparation = () => {
   useEffect(() => {
     const loadImages = () => {
       const imagePromises = [
-        new Promise((resolve) => {
-          const img1 = new Image();
-          img1.src = taxPreparation;
-          img1.onload = resolve;
-        }),
+        // new Promise((resolve) => {
+        //   const img1 = new Image();
+        //   img1.src = taxPreparation;
+        //   img1.onload = resolve;
+        // }),
         new Promise((resolve) => {
           const img2 = new Image();
           img2.src = taxPlanning;
@@ -49,11 +49,11 @@ const TaxPreparation = () => {
           <ContactInfo />
           <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
             <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
-              <div className="relative">
+              <div className="relative hidden md:block">
                 <img
                   className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
                   src={taxPlanning}
-                  alt=""
+                  alt="tax forms picture"
                 />
               </div>
               <div className="lg:py-3 lg:pr-16">
