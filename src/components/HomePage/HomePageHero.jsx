@@ -38,7 +38,7 @@ const HomePageHero = ({ heroImage, heroImageLandscape, openModal }) => {
               <button
                 onClick={() => {
                   window.open(
-                    "https://go.oncehub.com/RoubikTaxServicesLLC",
+                    "https://outlook.office365.com/owa/calendar/RoubikTaxServicesLLC@roubiktax.com/bookings/",
                     "_blank"
                   );
                 }}
